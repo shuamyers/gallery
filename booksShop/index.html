@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initBookShop()">
+
+
+    <h1>Book Shop</h1>
+
+
+    <main>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#ID</th>
+                    <th scope="col">Book Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="tbooks">
+
+            </tbody>
+        </table>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modall" onclick="renderUpdateAndAddModal(false)">
+            Add Book
+            <i class="fa fa-plus"></i>
+        </button>
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="modall" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/popper/popper.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/bookShop.js"></script>
+</body>
+
+</html>

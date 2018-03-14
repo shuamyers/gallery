@@ -147,6 +147,15 @@ function getProjs() {
     publishedAt: '10/03/2018',
     labels: ["Matrixes ", "keyboard events"]
   };
+  var proj6 = {
+    id: "bookShop",
+    name: "Book Shop",
+    title: "Book Shop",
+    desc: "Book Shop",
+    url: "/projs/chess/chess.html",
+    publishedAt: '10/03/2018',
+    labels: ["Matrixes ", "keyboard events"]
+  };
 
   var projs = [];
 

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+main{
+    /* display: flex;
+    justify-content:center; */
+    margin: 10px auto;
+    width:50%
+}
+.book-info ul{
+    list-style: none;
+}
+
+.book-img{
+    max-width: 100%;
+}
