@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page-header">
+        <h1 >Minesweeper</h1>
+    </div>
+    <div class="page-content">
+        <div class="game-btns">
+            <button title="4x4" onclick="Beginner()">Beginner</button>
+            <button title="6x6" onclick="Medium()">Medium</button>
+            <button title="7x7" onclick="Expert()">Expert</button>
+            <button title="Reset" onclick="initGame()">Reset</button>
+        </div>
+        <div class="game-info">
+            <div class="timer">
+                   
+            </div>
+            <div class="flaged-num">
+                    🚩:  0
+            </div>
+            <div class="num-boom">
+
+            </div>
+        </div>
+        <div class="game-over hide">
+            <h1>BOOM!!</h1>
+            <h1>Game Over</h1>
+        </div>
+        <div class="win hide">
+            <h1>You Win!!!</h1>
+        </div>
+        <table class="board-table" border="1">
+            <tbody class="board">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/minesweeper.js"></script>
+    </body>
+
+</html>

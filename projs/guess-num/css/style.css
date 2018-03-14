@@ -1,0 +1,20 @@
+body,h1{
+    margin:0;
+    font-family: sans-serif;
+}
+
+.page-haeder{
+    padding: 15px;
+    text-align: center;
+    background-color: cornsilk; 
+    border-bottom: black solid 2px; 
+}
+
+.main-content{
+    text-align:center;
+}
+
+
+.btn-guess:hover{
+    color:blue;    
+}

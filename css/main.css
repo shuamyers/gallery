@@ -1,0 +1,41 @@
+.small-img{
+    width: 350px;
+    height: 300px;
+}
+
+.big-img{
+    width:500px;
+}
+
+#team{
+    padding: 10%  !important; 
+    background-image: linear-gradient(to top , #0080005e,#28662800);
+}   
+#portfolio{
+    background-image: linear-gradient(to top , #2e2d2d,#5e5a5a);
+}
+footer{
+    background: black;
+}
+
+
+.modal-content{
+    background-image: linear-gradient(to top , #2e2d2d,#5e5a5a);
+    
+}
+
+footer ul.social-buttons li a:hover{
+    background-color: #2d7477  
+}
+#portfolioModal{
+    color: white;
+}
+.go-to-proj{
+    margin-bottom: 17px;
+}
+
+.badge-cateegory{
+    margin-left: 5  px; 
+    background-color: #2d7477      
+}
+

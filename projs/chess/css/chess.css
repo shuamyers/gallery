@@ -1,0 +1,25 @@
+body {
+    background-color: lightcoral;
+}
+
+
+table td {
+    width:40px;
+    height:40px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.dark {
+    background-color: darkgray;
+}
+.light {
+    background-color: lightgray;
+}
+
+.selected {
+    outline: 2px solid yellow;
+}
+.mark {
+    background-color: lightsalmon;
+}

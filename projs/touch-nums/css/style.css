@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+}
+.page-content{
+    margin: 0 auto;
+}
+
+.leval-contaner{
+    text-align: center;
+    display: inline-block;
+}
+.game-data div {
+    margin: 0 auto;
+    width: 160px;
+
+}
+
+.page-header{
+    background-color: blanchedalmond;
+    border-bottom: black solid 2px;
+    padding: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.borad{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    border: solid black ; 
+    background: #1cd1e6;
+    border-radius: 14px;
+}
+.tbl-nums{
+    padding: 5px;
+}
+
+.num{
+    padding: 10px;
+    border-radius: 10px;
+}
+.num:hover{
+    background-color:aqua;
+}
+
+.selected{
+    color: gray;
+    background: darkgray;
+}

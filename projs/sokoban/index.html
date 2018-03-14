@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sokoban</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page-header">
+        <h1>Sokoban</h1>
+    </div>
+    <div class="page-content">
+        <div class="score">
+            Score : 100
+        </div>
+        <div class="step-count">
+            Steps : 0
+        </div>
+        <div class="win hide">
+            <h1>You win!!!</h1>
+        </div>
+        <div onclick="resetGame()" class="reset">
+            Reset
+        </div>
+        <table>
+            <tbody class="board">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/sokoban.js"></script>
+</body>
+
+</html>
