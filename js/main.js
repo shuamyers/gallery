@@ -143,7 +143,7 @@ function getProjs() {
     name: "Chess",
     title: "what is your next move",
     desc: "classic Chess",
-    url: "/projs/chess/chess.html",
+    url: "projs/chess/chess.html",
     publishedAt: '10/03/2018',
     labels: ["Matrixes ", "keyboard events"]
   };
@@ -152,9 +152,9 @@ function getProjs() {
     name: "Book Shop",
     title: "Book Shop",
     desc: "Book Shop",
-    url: "/projs/chess/chess.html",
+    url: "projs/chess/chess.html",
     publishedAt: '10/03/2018',
-    labels: ["Matrixes ", "keyboard events"]
+    labels: ["CRUD"]
   };
 
   var projs = [];
