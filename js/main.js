@@ -139,20 +139,20 @@ function getProjs() {
     labels: ["animation"]
   };
   var proj5 = {
-    id: "chess",
-    name: "Chess",
-    title: "what is your next move",
-    desc: "classic Chess",
-    url: "projs/chess/chess.html",
+    id: "todo",
+    name: "Todo List",
+    title: "Organize your day",
+    desc: "Todo List add and remove daliy tasks",
+    url: "projs/todos/index.html",
     publishedAt: '10/03/2018',
-    labels: ["Matrixes ", "keyboard events"]
+    labels: ["Loucal storge ", ]
   };
   var proj6 = {
     id: "bookShop",
     name: "Book Shop",
     title: "Book Shop",
     desc: "Book Shop",
-    url: "projs/chess/chess.html",
+    url: "projs/booksShop/index.html",
     publishedAt: '10/03/2018',
     labels: ["CRUD"]
   };
@@ -164,6 +164,7 @@ function getProjs() {
   projs.push(proj3);
   projs.push(proj4);
   projs.push(proj5);
+  projs.push(proj6);
 
   return projs;
 }

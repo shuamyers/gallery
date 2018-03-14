@@ -1,0 +1,124 @@
+.clean-list {
+  list-style: none;
+}
+
+/* Components */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 200;
+}
+
+.paper {
+  width: 90vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, white 35px, #e6ebed 1px);
+  margin: 20px auto;
+  background-size: 100% 36px;
+  position: relative;
+  padding-top: 150px;
+  padding-left: 8px;
+  padding-right: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.paper:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 30px;
+  height: 100%;
+  width: 8px;
+  border-left: 1px solid #f2e3df;
+  border-right: 1px solid #f2e3df;
+}
+header {
+  height: 150px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  padding: 87px 20px 0 80px;
+}
+
+.content {
+  margin-top: 67px;
+  font-size: 20px;
+  line-height: 28px;
+ 
+}
+p {
+  margin: 0 0 0px 0;
+}
+
+.todos input[type="checkbox"] {
+  display: none;
+}
+
+.todos input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -2px 20px 0 0;
+  vertical-align: middle;
+  background: url(../assets/check_radio_sheet.png) left top no-repeat;
+  cursor: pointer;
+}
+.todos input[type="checkbox"]:checked + label span {
+  background: url(../assets/check_radio_sheet.png) -19px top no-repeat;
+}
+
+.highlight {
+  background-color: gold;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.filter {
+  background: transparent;
+  border: none;
+  border-right: 1px solid black;
+}
+
+.del-todo {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.list-todos {
+  margin-bottom: 0.1rem;
+}
+.btn-group-filter {
+  left: 90px;
+  margin-top: 23px;
+}
+.btn-filter {
+  -webkit-appearance: none;
+  background: transparent;
+  color: black;
+  border: none;
+  border-left: 1px solid black;
+}
+
+ul{
+  margin-top: 102px;  
+}
+
+.line-through{
+  text-decoration-line: line-through;
+  color: rgba(143, 143, 143, 0.904);
+}
+

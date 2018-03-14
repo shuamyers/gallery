@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="lib/animate.css">
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+ <body>
+    <div class="paper">
+        <header>
+            <h1 class="bounceIn">Todo's <span></span></h1>
+            <div class="btn-group btn-group-filter" data-toggle="buttons">
+                    <label class="btn btn-outline-dark active">
+                      <input type="radio" name="options" id="option1" autocomplete="off" checked onchange="filterTodos('all')">All</label>
+                    <label class="btn btn-outline-dark ">
+                      <input type="radio" name="options" id="option2" autocomplete="off" onchange="filterTodos('active')" >Active</label>
+                    <label class="btn btn-outline-dark">
+                      <input type="radio" name="options" id="option3" autocomplete="off" onchange="filterTodos('done')">Done</label>
+
+                      <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#addModal">
+                        <i class="fa fa-plus"></i>Add New
+                      </button>
+                    </div>    
+        </header>
+        <div class="content">
+               
+            <ul class="todos clean-list">
+                
+            </ul>
+           
+        </div>
+    </div>
+   
+    
+    <!-- Modal -->
+    <div class="modal fade" id="addModal" tabindex="-1" role="dialog" >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="addModalLabel">Todo list</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form >
+              <div class="form-group">
+                <label for="newTodo" class="col-form-label">New Todo:</label>
+                <input type="text" class="form-control" id="newTodo" placeholder="Enter Todo">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+            <button type="button" data-dismiss="modal" onclick="addTodo()" class="btn btn-dark">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+   
+      
+    <img  data-popo="9" data-card="1" src="assets/check_radio_sheet.png" alt="">
+
+  
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/popper/popper.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"/></script>    
+    <script src="js/utils.js"></script>    
+    <script src="js/main.js"></script>    
+ </body>
+
+</html>
